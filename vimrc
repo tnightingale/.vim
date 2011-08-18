@@ -36,7 +36,6 @@ set listchars=tab:▸\ ,eol:¬
 
 set ruler
 set visualbell
-set spell
 set laststatus=2
 
 au BufNewFile,BufRead *.install set filetype=php
