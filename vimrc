@@ -231,6 +231,13 @@ endfunction
 " Map space to / (search) and c-space to ? (backgwards search)
 map <space> /
 
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => PHP Specific settings
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+
+" Enable php folding.
+let php_folding = 1
+
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => General Abbrevs
