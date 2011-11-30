@@ -117,6 +117,7 @@ set nolazyredraw "Don't redraw while executing macros
 set showmatch "Show matching bracets when text indicator is over them
 set mat=2 "How many tenths of a second to blink
 
+set statusline=%<%f%h%m%r%=%{&ff}\ %l,%c%V\ %P
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Colors and Fonts
