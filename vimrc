@@ -299,3 +299,20 @@ nmap <silent> <C-t> :CommandT<CR>
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 let g:SuperTabNoCompleteAfter = [',', '\s', ';']
 
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => Gist configuration
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+let g:gist_clip_command = 'pbcopy'
+let g:gist_detect_filetype = 1
+let g:gist_private = 1
+let g:gist_show_privates = 1
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => Debugger configuration
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+let g:debuggerMaxDepth = 10
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => Tagbar congfiguration
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+map <Leader>t :TagbarOpenAutoClose<CR>x
