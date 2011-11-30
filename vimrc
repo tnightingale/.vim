@@ -82,6 +82,8 @@ au FocusLost * :wa
 " Normal mode: <Leader>e¬
 map <Leader>e :e <C-R>=expand("%:p:h") . "/" <CR>
 
+map <Leader>a :Ack -a 
+
 " Opens a tab edit command with the path of the currently edited file filled in
 " Normal mode: <Leader>t¬
 map <Leader>te :tabe <C-R>=expand("%:p:h") . "/" <CR>
